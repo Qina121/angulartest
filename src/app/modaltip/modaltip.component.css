@@ -1,0 +1,158 @@
+.modaltip{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    padding: 0px 30px;
+    background-color: #fff;
+    box-shadow: 0 0 5px #666;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+.modaltip i{
+    font-size: 16px;
+}
+.title{
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+}
+.title i{
+    margin-right: 10px;
+}
+.title .desc{
+    color: #666;
+    display: inline-block;
+}
+.title .button{
+    color: #17a87f;
+    display: inline-block;
+    cursor: pointer;
+}
+.check{
+    color: #2ac64b;
+}
+.footer{
+    height: 30px;
+    color: #666;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer .button{
+    padding: 3px 10px;
+    box-shadow:  0 0 5px #ccc;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.footer .button:nth-of-type(2){
+    background-color: #17a87f;
+    color: #fff;
+}
+.question{
+    color: red;
+}
+.delenotes .title{
+    width: 210px;
+}
+.alertYellow{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    border: 1px solid #ff9a0d;
+    border-radius: 4px;
+    margin: 0 auto;
+    width: 600px;
+    padding: 10px 20px;
+    background-color: #fff;  
+}
+.alertYellow .title{
+    line-height: 30px;
+    height: 30px;
+}
+.alertYellow .title i{
+    color: #ff9a0d;
+}
+.alertYellow .title div{
+    float: left;
+}
+.alertYellow .button{
+    padding: 5px 10px;
+    line-height: 20px;
+    box-shadow:  0 0 5px #ccc;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #ff9a0d;
+    float: right;
+}
+.alertGreen{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    border: 1px solid #2aa382;
+}
+.alertGreen .title i{
+    color: #2aa382;
+}
+.tip i{
+    color: #ff9a0d;
+}
+.warning i{
+    color: red;
+}
+.delenotes .left{
+    float: left;
+}
+.delenotes .right{
+    float: right;
+}
+.delenotes .right div{
+    transform: rotateZ(45deg);
+    font-size: 30px;
+    cursor: pointer;
+}
+.delenotesTip .title{
+    width: 300px;
+}
+.delenotesTip .content{
+    width: 300px;
+    text-align:left;
+    color:#ccc;
+}
+.delenotesTip .footer .button{
+    border: 1px solid #2aa382;
+    color: #2aa382;
+    box-shadow: none;
+}
+.delenotesTip .footer .button:nth-of-type(2){
+    background-color: #fff;
+    
+}
+.modalone{
+ margin-left: -112px;
+}
+.modaltwo{
+    margin-left: -135px;
+}
+.modalthree{
+    position: absolute;
+    margin-left: -321px;
+}
+.modalfour{
+    margin-left: -321px;
+}
+.modalfive{
+    margin-left: -63px;
+}
+.modalsix{
+    margin-left: -84px;
+}
+.modalseven{
+    margin-left: -112px;
+}
+.modaleight{
+    margin-left: -180px;
+}

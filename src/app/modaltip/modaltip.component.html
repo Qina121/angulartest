@@ -1,0 +1,88 @@
+<div class="modaltip modalone" *ngIf="type == 'notes'">
+    <div class="notes">
+        <div class="title">
+            <i class="fa fa-check-circle check"></i>
+            <div class="desc">此节点一成功删除。{{tip}}</div>
+            <div class="button">撤销</div>
+        </div>
+        <div class="content"></div>
+    </div>
+</div>
+<div class="modaltip modaltwo" *ngIf="type == 'delenotes'">
+    <div class="delenotes">
+        <div class="title">
+            <i class="fa fa-question-circle question"></i>
+            <div class="desc">此节点一成功删除?{{tip}}</div>
+        </div>
+        <div class="content"></div>
+        <div class="footer">
+            <div>
+                <div class="button cancel">取消</div>
+                <div class="button sure">确定</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="alertYellow modalthree" *ngIf="type == 'alertYellow'">
+    <div class="title">
+        <div>
+             <i class="fa fa-exclamation-circle check"></i>      
+        </div>       
+        <div class="desc">此节点一成功删除。{{tip}}</div>
+    </div>
+    <div class="button">退出</div>
+</div>
+<div class="alertYellow alertGreen modalfour" *ngIf="type == 'alertGreen'">
+    <div class="title">
+        <div>
+                <i class="fa fa-exclamation-circle check"></i>      
+        </div>       
+        <div class="desc">请单击选中邮件模板，双击预览模板{{tip}}</div>
+    </div>
+</div>
+<div class="modaltip modalfive" *ngIf="type == 'success'">
+    <div class="notes success">
+        <div class="title">
+            <i class="fa fa-check-circle check"></i>
+            <div class="desc">保存成功{{tip}}</div>
+        </div>
+    </div>
+</div>
+<div class="modaltip modalsix" *ngIf="type == 'tip'">
+    <div class="notes tip">
+        <div class="title">
+            <i class="fa fa-exclamation-circle check"></i>
+            <div class="desc">请填写邮件名称{{tip}}</div>
+        </div>
+    </div>
+</div>
+<div class="modaltip modalseven" *ngIf="type == 'warning'">
+    <div class="notes warning">
+        <div class="title">
+            <i class="fa fa-times-circle check"></i>
+            <div class="desc">请输入http或https开头的链接{{tip}}</div>
+        </div>
+    </div>
+</div>
+<div class="modaltip modaleight" *ngIf="type == 'delenotesTip'">
+  <div class="delenotes delenotesTip">
+      <div class="title">
+          <div class="left">
+              <i class="fa fa-question-circle question"></i>
+              <div class="desc">此节点一成功删除?{{tip}}</div>
+          </div>
+          <div class="right">
+              <div>+</div>
+          </div>
+      </div>
+      <div class="content">
+          为防止邮件报表丢失，营销效果不可追踪给您带来的麻烦，已发送的邮件暂时不能删除！
+      </div>
+      <div class="footer">
+          <div>
+              <div class="button cancel">取消</div>
+              <div class="button sure">确定</div>
+          </div>
+      </div>
+  </div>
+</div>
